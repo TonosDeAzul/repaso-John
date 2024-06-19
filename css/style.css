@@ -81,7 +81,7 @@ li.item:hover > a {
   padding: var(--padding);
 }
 
-.margin-bottom{
+.margin-bottom {
   margin-bottom: var(--margin);
 }
 
@@ -109,7 +109,7 @@ li.item:hover > a {
   border: none;
 }
 
-.cards{
+.cards {
   display: flex;
   flex-wrap: wrap;
   gap: 4px;
@@ -154,8 +154,8 @@ li.item:hover > a {
   display: inline-flex;
   align-items: center;
 }
-.button__text {
-}
+/* .button__text {
+} */
 .button--outline {
   background: var(--mineShaft);
   color: var(--starship);
@@ -198,4 +198,12 @@ ul.list > li.item a:visited {
 
 .item:last-child {
   border-bottom: none;
+}
+
+.bg-white {
+  background: var(--white);
+}
+
+.color-dark {
+  color: var(--mineShaft);
 }
